@@ -118,5 +118,19 @@
   .other-shop{padding:26px 7%;gap:22px}.other-shop strong{font-size:1.4rem}.other-shop>span:first-child{font-size:.75rem}
 }
 @media(max-width:360px){.opening{padding-inline:6%}.opening h1{font-size:2.65rem}.opening-gallery{height:310px}.opening-description{font-size:.875rem}.opening-subtitle{font-size:1.05rem;gap:12px}.opening .eyebrow{font-size:.6875rem}.opening-gallery figcaption{font-size:.625rem}.opening-noodle figcaption{font-size:.5625rem}.store-shortcuts{padding-inline:6%}.store-shortcuts>a{font-size:1.1rem}.store-shortcuts small{font-size:.625rem}.dining-links{gap:15px}.dining-links a{gap:8px}.branch-hero figure{height:270px}.recruit-detail .button-light{font-size:.6875rem}.section-heading h2{font-size:1.8rem}.footer-top>p{font-size:.75rem}}
+/* Keep the supplied portrait's lettering and the full celebration photo in view. */
+.opening-gallery.opening-gallery--portrait{min-height:0;height:auto;padding:5px 0 64px;align-self:center}
+.opening-gallery--portrait .opening-beef{position:relative;top:0;width:62%;margin-left:auto}
+.opening-gallery--portrait .opening-beef img{width:100%;height:auto;aspect-ratio:1072/1524;object-fit:contain;animation:none}
+.opening-gallery--portrait .opening-noodle{width:46%;left:0}
+.dining--anniversary{grid-template-columns:1fr 1fr}
+.dining--anniversary .dining-photo{min-height:0;height:auto;aspect-ratio:1}
+.dining--anniversary .dining-photo img{width:100%;height:auto;aspect-ratio:1;object-fit:contain}
+@media(max-width:800px){
+  .opening-gallery.opening-gallery--portrait{width:100%;max-width:500px;margin-inline:auto;padding-top:0}
+  .opening-gallery--portrait .opening-beef{width:70%}
+  .opening-gallery--portrait .opening-noodle{width:48%;left:-2%}
+  .dining--anniversary{grid-template-columns:1fr}
+}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.is-revealed{transform:none!important;opacity:1!important;clip-path:none!important}}
 @media print{.site-header,.mobile-reserve,.opening-scroll,.back-top{display:none}.is-revealed{animation:none!important;opacity:1!important;transform:none!important;clip-path:none!important}}
